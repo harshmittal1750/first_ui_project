@@ -1,0 +1,237 @@
+.jumbo{ position: relative;
+  text-align: center;
+  color: black;}   
+.bottom-left{position: absolute;
+  bottom: 18px;
+  right: 26px;}
+.navbar {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: black;
+          width: 100%;
+          position: sticky;
+          z-index: 2;
+      }
+      
+      .link {
+          float: left;
+      }
+      
+      .link a {
+          display: block;
+          text-decoration: none;
+          text-align: center;
+          color: white;
+          font-size: 20px
+      }
+      
+      .link a:hover {
+          color: orange;
+      }
+      
+      .searchbar {
+          margin: 19px;
+          float: right;
+          padding: 10px;
+          border: 2px solid #ccc;
+          border-radius: 4px;
+          font-size: 16px;
+          background-color: white;
+          background-image: url("ser.png");
+          background-size: 18px;
+          background-position: 10px 10px;
+          background-repeat: no-repeat;
+          padding: 8px 15px 8px 30px;
+      }
+      
+      .women {
+          float: right;
+      }
+      
+      .men {
+          float: left;
+      }
+      
+      .kids {
+          margin-left: 470px;
+      }
+      
+      body {
+          margin: 0;
+      }
+      
+      .sidenav {
+          height: 100%;
+          width: 0;
+          z-index: 1;
+          position: fixed;
+          top: 0;
+          left: 0;
+          background-color: white;
+          overflow-x: hidden;
+          transition: 0.5s;
+          padding-top: 60px;
+          z-index: 0;
+      }
+      
+      .sidenav a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 18px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+          color: #bbb;
+      }
+      
+      .sidenav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 450px) {
+          .sidenav {
+              padding-top: 15px;
+          }
+          .sidenav a {
+              font-size: 18px;
+          }
+      }
+      
+      * {
+          box-sizing: border-box
+      }
+      
+      body {
+          font-family: Verdana, sans-serif;
+          margin: 0
+      }
+      /* Slideshow container */
+      
+      .cor {
+          margin-top: auto;
+      }
+      /* Next & previous buttons */
+      
+      .prev,
+      .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: darkgray;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          z-index: 1;
+      }
+      /* Position the "next button" to the right */
+      
+      .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+      }
+      /* On hover, add a black background color with a little bit see-through */
+      
+      .prev:hover,
+      .next:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+      }
+      /* The dots/bullets/indicators */
+      
+      .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+      }
+      
+      .active,
+      .dot:hover {
+          background-color: #717171;
+      }
+      /* Fading animation */
+      
+    
+
+      .zoom {
+          padding: 50px;
+          transition: transform .2s;
+          width: 210px;
+          height: 240px;
+          margin: 0 auto;
+          border: 1px dotted black;
+      }
+      
+     
+      .zoom:hover {
+          transform: scale(1.5);
+      }
+      
+      .foul {
+          list-style-type: none;
+          overflow: hidden;
+          margin: 5px;
+      }
+      
+      li {
+          color: grey;
+          text-decoration: none;
+          padding: 10px;
+      }
+      
+      li.abc {
+          float: left;
+      }
+      
+      li a {
+          color: white;
+          margin: 10px;
+      }
+      
+      .foot {
+          display: inline-block;
+          margin: 10px;
+      }
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+    width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color:#008CBA ; 
+  color: black; 
+  border: 2px solid #161314;
+}
+
+.button1:hover {
+  background-color:  #080C60;
+  color: white;
+}
+.mar-img{border: #000000 solid 2px}

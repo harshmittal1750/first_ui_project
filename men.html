@@ -1,0 +1,93 @@
+<html>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="11.css">
+<style>
+    body {
+        margin: none;
+    }
+    
+    .iframe1 {
+        height: 100%;
+        width: 19.4%;
+        border: none;
+    }
+    
+    .iframe2 {
+        height: 100%;
+        width: 80%;
+        border: none;
+    }
+</style>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li class="link">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">SellNbai plus</a>
+                    <a href="#">Sell on SellNbai</a>
+                    <a href="#">Customer care</a>
+                    <a href="#">Contact</a>
+                    <a href="tracking.html">Your Orders</a>
+                    <a href="#">Offer zone</a>
+                    <a href="#">Smart Payment Options</a>
+                    <a href="checkout.html">My cart</a>
+                    <a href="#">My notifications</a>
+                </div>
+                <span style="font-size:30px;cursor:pointer ;color:GRAY;padding:10px;" onclick="openNav()">&#9776;</span>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                    }
+                </script>
+            </li>
+            <li class="link"> <a href="#"><strong>Sellnbai</strong></a>
+            </li>
+
+            <li class="link"><a href="category.html">Women</a>
+            </li>
+            <li class="link">
+                <a href="#">Men</a>
+            </li>
+
+            <li class="link">
+                <a href="#">Kids</a>
+            </li>
+            <li class="link">
+                <a href="#">Accessories</a>
+            </li>
+            <li class="link">
+                <a href="#">Sports</a>
+            </li>
+            <li class="link">
+                <a href="login.html">Login</a>
+            </li>
+            <li class="link">
+                <a href="signup.html">Signup</a>
+            </li>
+            <li class="searchbar">
+                <input style="border: none; outline: none;" type="search">
+
+            </li>
+        </ul>
+    </nav>
+
+    <iframe class="iframe1" src="men1.html">
+
+    </iframe>
+    <iframe class="iframe2" src="men2.html">
+        
+    </iframe>
+</body>
+
+</html>
